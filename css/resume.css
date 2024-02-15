@@ -1,0 +1,46 @@
+.embed {
+    margin-bottom: 7.5vh;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.form-group label {
+    white-space: nowrap;
+    margin-bottom: 1vh;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 40vh;
+    resize: none;
+}
+
+button {
+    padding: 1vh;
+    margin: 2.5vh 0;
+}
+
+h2 {
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+.form-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+}
