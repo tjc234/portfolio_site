@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(98, 134, 163);
+}
+
 p {
     font-size: 2.5vh;
     text-align: center;
@@ -16,7 +20,7 @@ h1 {
     align-items: center;
     width: 100%;
     height: 10vh;
-    background-color: #f2f2f2;
+    background-color: #434246;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -24,6 +28,19 @@ h1 {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.header .horizontal-list a {
+    color: #ffffff;
+}
+
+.header .horizontal-list a:hover,
+.header .horizontal-list a:focus {
+    color: #0000FF;
+}
+
+.header .horizontal-list a:active {
+    color: #e2ce1cbd;
 }
 
 .horizontal-list li {
