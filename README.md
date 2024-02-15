@@ -20,9 +20,11 @@ Webpage resources and structure of the site.
 - **Git/GitHub**: For version control.
 - Further technologies will be integrated as the project develops.
 
-# License
+# Copyright
 
-This project is open source and available under the [MIT License](LICENSE).
+Copyright (c) 2024 Tyler Chapp.
+
+All rights reserved.
 
 ## Contact
 
