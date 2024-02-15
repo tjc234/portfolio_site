@@ -3,5 +3,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+}
+
+.profile-pic {
+    width: 25vh;
+    border: 1vh solid black;
 }

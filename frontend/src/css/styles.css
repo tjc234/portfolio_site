@@ -1,5 +1,16 @@
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('/frontend/assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: rgb(98, 134, 163);
+    margin-top: 10vh;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 p {
@@ -12,6 +23,7 @@ h1 {
     font-size: 5vh;
     text-align: center;
     margin-bottom: 5vh;
+    font-style: bold;
 }
 
 .header {
@@ -19,9 +31,18 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 10vh;
+    height: 7vh;
     background-color: #434246;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header img {
+    height: 7vh;
+    width: 7vh;
+    align-self: left;
 }
 
 .header ul {
