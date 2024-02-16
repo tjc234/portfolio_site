@@ -36,7 +36,7 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 7vh;
+    height: 5vh;
     background-color: #434246;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -45,8 +45,8 @@ h1 {
 }
 
 .header img {
-    height: 7vh;
-    width: 7vh;
+    height: 4vh;
+    width: 4vh;
 }
 
 .header ul {
