@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TylerChapp.com</title>
     <link rel="stylesheet" href="/frontend/src/css/styles.css">
     <link rel="stylesheet" href="/frontend/src/css/home.css">
-    <link rel="icon" type="image/x-icon" href="/frontend/assets/icons/favicon.ico">
+    <link rel="icon" href="/frontend/assets/icons/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header class="header">
         <img src="/frontend/assets/icons/logo.png" alt="Logo">
-        <div class="nav-containter>">
-        <nav>
+        <nav class="nav-container">
             <ul class="horizontal-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="bio.html">Bio</a></li>
@@ -19,13 +19,17 @@
                 <li><a href="resume.html">Resume</a></li>
             </ul>
         </nav>
-        </div>
     </header>
-    <h1>Welcome to My Portfolio Site</h1>
-
-    <img class="profile-pic" src="/frontend/assets/images/homepage_portrait.jpg" alt="Photo of Tyler Chapp">
-    <p>Hello I am Tyler Chapp</p>
-    <p>Full Stack Developer & Software Engineer</p>
-    <p>What can I build for you?</p>
+    <main>
+        <section>
+            <h1>Tyler Chapp</h1>
+            <div class="profile-pic-container">
+                <img class="profile-pic" src="/frontend/assets/images/homepage_portrait.jpg" alt="Photo of Tyler Chapp">
+            </div>
+            <h2>Full-Stack Developer & Software Engineer</h2>
+            <p class="intro-text">What can I build for you?</p>
+        </section>
+        
+    </main>
 </body>
 </html>

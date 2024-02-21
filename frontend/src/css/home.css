@@ -1,11 +1,16 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.profile-pic-container {
+    padding-left: 6em;
+    display: inline-block;
 }
+
 
 .profile-pic {
     width: 25vh;
     border: 1vh solid black;
+}
+
+
+.intro-text {
+    font-style: italic;
+    text-indent: 2em;
 }
