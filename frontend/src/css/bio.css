@@ -1,0 +1,12 @@
+.experience-list, .education-list {
+    font-size: 1.85vh;
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 5.5em;
+    padding-right: 70em;
+    padding-bottom: 3em;
+}
+
+.experience-list li {
+    margin-bottom: 0.5em;
+}
