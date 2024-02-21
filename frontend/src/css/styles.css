@@ -5,6 +5,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Lato';
+    src: url('/frontend/assets/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('/frontend/assets/fonts/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body, ul {
     margin: 0;
     padding: 0;
@@ -13,7 +27,7 @@ body, ul {
 body {
     background-color: rgb(98, 134, 163);
     margin-top: 7.5vh;
-    font-family: 'Titillium Web', sans-serif;
+   
     font-weight: normal;
     font-style: normal;
 }
@@ -23,22 +37,25 @@ p {
     text-align: left;
     padding-left: 5em;
     padding-right: 5em;
-    padding-bottom: 3em;
+    padding-bottom: 1.5em;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    font-size: 7vh;
+    font-size: 4em;
     text-align: left;
     margin-bottom: 5vh;
     font-style: bold;
     padding-left: 1.25em;
+    font-family: 'Amatic SC', cursive;
 }
 
 h2 {
-    font-size: 3.5vh;
+    font-size: 3em;
     text-align: left;
-    padding-left: 3em;
-    
+    padding-left: 1.5em;
+    margin-bottom: 0.33em;
+    font-family: 'Amatic SC', cursive;
 }
 
 .header {
@@ -66,6 +83,7 @@ h2 {
 
 .header .horizontal-list a {
     color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .header .horizontal-list a:hover,
