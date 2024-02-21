@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkers</title>
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <link rel="stylesheet" href="/frontend/src/css/styles.css" />
+    <link rel="stylesheet" href="/frontend/src/css/checkers.css" />
+</head>
+<body>
+    <header class="header">
+        <img src="/frontend/assets/icons/logo.png" alt="Logo">
+        <div class="nav-containter>">
+            <nav>
+                <ul class="horizontal-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bio.html">Bio</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+    <div id="checkers-board" class="board"></div>
+    <div id="current-player" class="current-player">Current Player: Black</div>
+        <py-script src="/frontend/src/scripts/checkers.py"></py-script>
+        <py-script>
+            initialize()
+        </py-script> 
+</body>
+</html>
+ 
