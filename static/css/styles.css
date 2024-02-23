@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Titillium Web';
-    src: url('/frontend/assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+    src: url('/static/fonts/TitilliumWeb-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('/frontend/assets/fonts/Lato-Regular.ttf') format('truetype');
+    src: url('/static/fonts/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Amatic SC';
-    src: url('/frontend/assets/fonts/AmaticSC-Regular.ttf') format('truetype');
+    src: url('/static/fonts/AmaticSC-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
