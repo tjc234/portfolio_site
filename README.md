@@ -27,6 +27,6 @@ All rights reserved.
 ## Contact
 
 - **Name**: Tyler Chapp
-- **Email**: [tjc234@nau.edu]
-- **Project Link**: [https://github.com/username/my-website](https://github.com/tjc234/portfolio_site)
+- **Email**: tjc234@nau.edu
+- **Project Link**: https://github.com/username/my-website](https://github.com/tjc234/portfolio_site
 
